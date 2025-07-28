@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_timeline_item_desc
+    - filter.format.basic_html
+    - paragraphs.paragraphs_type.kingly_paragraph_timeline_item
+  module:
+    - text
+id: paragraph.kingly_paragraph_timeline_item.field_timeline_item_desc
+field_name: field_timeline_item_desc
+entity_type: paragraph
+bundle: kingly_paragraph_timeline_item
+label: Description
+description: 'Enter the main content for this timeline event.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+field_type: text_long

@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_timeline_item_date
+    - paragraphs.paragraphs_type.kingly_paragraph_timeline_item
+id: paragraph.kingly_paragraph_timeline_item.field_timeline_item_date
+field_name: field_timeline_item_date
+entity_type: paragraph
+bundle: kingly_paragraph_timeline_item
+label: Date
+description: 'Enter the date or time label for this event (e.g., "Q3 2024", "Summer ''25", "2024-12-25"). This is a flexible text field.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: kingly_paragraph_timeline_item
+label: 'Kingly Timeline Item'
+icon_uuid: null
+icon_default: null
+description: 'A single event or point in a timeline, containing a date, title, description, and an optional link.'
+behavior_plugins: {  }

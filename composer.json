@@ -1,0 +1,12 @@
+{
+  "name": "erikdekamps/kingly_paragraph_timeline",
+  "description": "A Drupal recipe for a responsive timeline paragraph component.",
+  "keywords": ["drupal", "recipe", "paragraph", "timeline", "sdc"],
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/core": "^10.3 || ^11",
+    "erikdekamps/kingly_page": "dev-main",
+    "erikdekamps/kingly_minimal": "dev-main"
+  }
+}

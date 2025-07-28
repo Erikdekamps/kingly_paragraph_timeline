@@ -1,0 +1,13 @@
+name: 'Kingly Timeline Paragraph'
+type: 'Site'
+description: 'Configures a responsive and accessible timeline paragraph with a container/item structure.'
+
+install:
+  - paragraphs
+  - entity_reference_revisions
+  - text
+  - link
+  - options
+
+config:
+  strict: false

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.kingly_paragraph_timeline_item.field_timeline_item_date
+    - field.field.paragraph.kingly_paragraph_timeline_item.field_timeline_item_desc
+    - field.field.paragraph.kingly_paragraph_timeline_item.field_timeline_item_link
+    - field.field.paragraph.kingly_paragraph_timeline_item.field_timeline_item_title
+    - paragraphs.paragraphs_type.kingly_paragraph_timeline_item
+id: paragraph.kingly_paragraph_timeline_item.default
+targetEntityType: paragraph
+bundle: kingly_paragraph_timeline_item
+mode: default
+content: {}
+hidden:
+  field_timeline_item_date: true
+  field_timeline_item_desc: true
+  field_timeline_item_link: true
+  field_timeline_item_title: true
+  search_api_excerpt: true
