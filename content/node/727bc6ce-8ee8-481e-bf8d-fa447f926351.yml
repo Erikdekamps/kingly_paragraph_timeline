@@ -1,0 +1,162 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 727bc6ce-8ee8-481e-bf8d-fa447f926351
+  bundle: kingly_page
+  default_langcode: en
+  depends:
+    af75338a-9c8f-4d2e-9ba1-9d65d121b82e: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Timeline paragraph'
+  created:
+    -
+      value: 1753721108
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: /timeline-paragraph
+      langcode: en
+      pathauto: 1
+  field_content:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 413004ee-56f7-4d46-9297-c42e66b47006
+          bundle: kingly_paragraph_timeline
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1753721177
+          behavior_settings:
+            -
+              value:
+                layout_paragraphs:
+                  parent_uuid: null
+                  region: null
+          revision_translation_affected:
+            -
+              value: true
+          field_timeline_items:
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 7ced0f40-0f30-4cd6-894c-81fb3e8ffda0
+                  bundle: kingly_paragraph_timeline_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1753721177
+                  behavior_settings:
+                    -
+                      value: {  }
+                  field_timeline_item_date:
+                    -
+                      value: 'May 1940'
+                  field_timeline_item_desc:
+                    -
+                      value: '<p>Men of the British Expeditionary Force (BEF) wade out to a destroyer during the evacuation from Dunkirk.</p>'
+                      format: basic_html
+                  field_timeline_item_link:
+                    -
+                      target_uuid: af75338a-9c8f-4d2e-9ba1-9d65d121b82e
+                      title: 'Demo link'
+                      options: {  }
+                  field_timeline_item_title:
+                    -
+                      value: Dunkirk
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: edd6726a-6d21-4edb-8cbf-0898e60b651f
+                  bundle: kingly_paragraph_timeline_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1753721190
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_timeline_item_date:
+                    -
+                      value: '25 July 1940'
+                  field_timeline_item_desc:
+                    -
+                      value: '<p>RAF Spitfire pilots scramble for their planes</p>'
+                      format: basic_html
+                  field_timeline_item_title:
+                    -
+                      value: 'The Battle of Brittain'
+            -
+              entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: 6f5076d6-ff4e-49e9-8eb7-1a55e372325a
+                  bundle: kingly_paragraph_timeline_item
+                  default_langcode: en
+                default:
+                  status:
+                    -
+                      value: true
+                  created:
+                    -
+                      value: 1753721238
+                  behavior_settings:
+                    -
+                      value: {  }
+                  revision_translation_affected:
+                    -
+                      value: true
+                  field_timeline_item_date:
+                    -
+                      value: 'June 1941'
+                  field_timeline_item_desc:
+                    -
+                      value: '<p>A column of Red Army prisoners taken during the first days of the German invasion.</p>'
+                      format: basic_html
+                  field_timeline_item_title:
+                    -
+                      value: 'Operation Barbarossa'
+          field_timeline_orientation:
+            -
+              value: vertical
