@@ -7,45 +7,28 @@ dependencies:
     - field.field.paragraph.kingly_paragraph_timeline_item.field_timeline_item_link
     - field.field.paragraph.kingly_paragraph_timeline_item.field_timeline_item_title
     - paragraphs.paragraphs_type.kingly_paragraph_timeline_item
-  module:
-    - text
 id: paragraph.kingly_paragraph_timeline_item.default
 targetEntityType: paragraph
 bundle: kingly_paragraph_timeline_item
 mode: default
 content:
   field_timeline_item_date:
-    type: string_textfield
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
     weight: 0
     region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
-  field_timeline_item_desc:
-    type: text_textarea
-    weight: 2
-    region: content
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-  field_timeline_item_link:
-    type: link_default
-    weight: 3
-    region: content
-    settings:
-      placeholder_url: ''
-      placeholder_title: ''
-    third_party_settings: {  }
   field_timeline_item_title:
-    type: string_textfield
+    type: string
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
     weight: 1
     region: content
-    settings:
-      size: 60
-      placeholder: ''
-    third_party_settings: {  }
 hidden:
-  created: true
-  status: true
+  field_timeline_item_desc: true
+  field_timeline_item_link: true
+  search_api_excerpt: true
