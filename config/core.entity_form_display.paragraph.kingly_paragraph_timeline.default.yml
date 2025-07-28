@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.kingly_paragraph_timeline.field_timeline_items
-    - field.field.paragraph.kingly_paragraph_timeline.field_timeline_orientation
     - paragraphs.paragraphs_type.kingly_paragraph_timeline
   module:
     - entity_reference_revisions
@@ -12,15 +11,9 @@ targetEntityType: paragraph
 bundle: kingly_paragraph_timeline
 mode: default
 content:
-  field_timeline_orientation:
-    type: options_select
-    weight: 0
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   field_timeline_items:
     type: entity_reference_paragraphs
-    weight: 1
+    weight: 0
     region: content
     settings:
       title: 'Timeline Item'

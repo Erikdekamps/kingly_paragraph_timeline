@@ -58,9 +58,6 @@ default:
                 layout_paragraphs:
                   parent_uuid: null
                   region: null
-          revision_translation_affected:
-            -
-              value: true
           field_timeline_items:
             -
               entity:
@@ -113,9 +110,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   field_timeline_item_date:
                     -
                       value: '25 July 1940'
@@ -144,9 +138,6 @@ default:
                   behavior_settings:
                     -
                       value: {  }
-                  revision_translation_affected:
-                    -
-                      value: true
                   field_timeline_item_date:
                     -
                       value: 'June 1941'
@@ -157,6 +148,3 @@ default:
                   field_timeline_item_title:
                     -
                       value: 'Operation Barbarossa'
-          field_timeline_orientation:
-            -
-              value: vertical

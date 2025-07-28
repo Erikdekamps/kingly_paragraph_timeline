@@ -13,7 +13,7 @@ entity_type: paragraph
 bundle: kingly_paragraph_timeline
 label: 'Timeline Items'
 description: 'Add the individual events or steps for the timeline.'
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

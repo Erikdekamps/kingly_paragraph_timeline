@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.kingly_paragraph_timeline.field_timeline_items
-    - field.field.paragraph.kingly_paragraph_timeline.field_timeline_orientation
     - paragraphs.paragraphs_type.kingly_paragraph_timeline
   module:
     - entity_reference_revisions
@@ -22,5 +21,4 @@ content:
     weight: 0
     region: content
 hidden:
-  field_timeline_orientation: true
   search_api_excerpt: true

@@ -5,5 +5,5 @@ id: kingly_paragraph_timeline
 label: 'Kingly Timeline'
 icon_uuid: null
 icon_default: null
-description: 'A container for displaying a sequence of "Timeline Item" paragraphs either vertically or horizontally.'
+description: 'A container for displaying a sequence of "Timeline Item" paragraphs in a vertical layout.'
 behavior_plugins: {  }
